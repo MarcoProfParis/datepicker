@@ -9,7 +9,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Includes Alpine.js for reactivity -->
     <script src="https://unpkg.com/alpinejs" defer></script>
-<style>.daterangepicker {
+<style>
+
+.daterangepicker {
   position: absolute;
   color: inherit;
   background-color: #fff;
@@ -482,25 +484,7 @@
                 <div class="mt-2 text-sm text-gray-600" x-text="`Selected: ${formatDateRange()}`"></div>
             </div>
             
-            <style>
-                .daterangepicker {
-                    position: absolute;
-                    display: none;
-                }
-                
-                .daterangepicker::after {
-                    position: absolute;
-                    display: inline-block;
-                    border-bottom-color: #fff;
-                    content: '';
-                    top: -6px;
-                    left: 10px;
-                    right: auto;
-                    border-width: 0 6px 6px;
-                    border-style: solid;
-                    border-color: transparent transparent #fff;
-                }
-            </style>
+            
             
            // <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
             <script src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
